@@ -20,7 +20,7 @@ to the default 3306 or whichever port is used while testing.
     (OR)
 
     Using phpmyadmin, create a new data base called board and execute the following queries.
-
+	```
    	CREATE TABLE `posts` (
   	`id` varchar(13) NOT NULL,
   	`replyto` varchar(13) DEFAULT NULL,
@@ -51,6 +51,7 @@ to the default 3306 or whichever port is used while testing.
 	ALTER TABLE `users`
   	ADD PRIMARY KEY (`username`);
 	COMMIT;
+	```
 
 2. Now there is a database with two users and a few messages. Open login.php from localhost.
 localhost/project5/login.php
