@@ -76,4 +76,4 @@ Logout using the "Logout from chatterbox" button on the top right corner of the 
 
 ## License
 
-Abhinaya Ramachandran
+Abhinaya Ramachandran 2017
