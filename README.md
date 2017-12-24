@@ -13,9 +13,9 @@ PHP, MySQL
 
 
 
-config.php - Contains database connections
-login.php - user authentication script
-board.php - script to insert messages and replies
+* config.php - Contains database connections
+* login.php - user authentication script
+* board.php - script to insert messages and replies
 
 
 ## How to run ?
