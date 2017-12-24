@@ -4,6 +4,15 @@ Chat box application which lets the users view, post and reply to messages of ot
 
 PHP, MySQL
 
+![alt chatterbox](screenshots/chatterbox1.JPG "Login")
+-------------------------------------------------------------
+![alt chatterbox](screenshots/chatterbox2.JPG "Messege Board")
+-------------------------------------------------------------
+![alt chatterbox](screenshots/chatterbox3.JPG "Messege Board")
+-------------------------------------------------------------
+
+
+
 config.php - Contains database connections
 login.php - user authentication script
 board.php - script to insert messages and replies
@@ -53,7 +62,8 @@ to the default 3306 or whichever port is used while testing.
 	COMMIT;
 	```
 
-2. Now there is a database with two users and a few messages. Open login.php from localhost.
+2. Now there is a database with two users and a few messages. Run Apache and MySQL on XAMPP.
+Open login.php from localhost.
 localhost/project5/login.php
 
 Login using the credentials:
